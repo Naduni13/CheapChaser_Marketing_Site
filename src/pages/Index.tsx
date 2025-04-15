@@ -158,7 +158,11 @@ const Index = () => {
                   {item.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ')}
                 </a>
               ))}
-              <Button size="sm" className="bg-primary hover:bg-primary-dark text-primary-foreground hover:scale-105 transition-transform">
+              <Button
+                   size="sm"
+                  className="bg-primary hover:bg-primary-dark text-primary-foreground hover:scale-105 transition-transform"
+                  onClick={() => window.location.href = "https://cheapchaser.live"}
+>
                 Get Started
               </Button>
             </div>
@@ -204,7 +208,8 @@ const Index = () => {
             Generate personalized travel itineraries based on your preferences and budget. Experience Sri Lanka like never before.
           </p>
           <div className="space-x-4 animate-fade-up opacity-0" style={{ animationDelay: '1s' }}>
-            <Button size="lg" className="bg-white text-gray-900 hover:bg-gray-100 hover:scale-105 transition-all duration-300">
+            <Button size="lg" className="bg-white text-gray-900 hover:bg-gray-100 hover:scale-105 transition-all duration-300"
+            onClick={() => window.location.href = "https://cheapchaser.live"}>
               Plan Your Trip
               <ChevronRight className="ml-2 h-4 w-4" />
             </Button>
@@ -496,7 +501,8 @@ const Index = () => {
           <Button 
             size="lg" 
             className="bg-primary-foreground text-primary hover:bg-primary-lighter hover:scale-105 transition-all duration-300"
-          >
+            onClick={() => window.location.href = "https://cheapchaser.live"}
+>
             Start Planning Now
             <ChevronRight className="ml-2 h-4 w-4" />
           </Button>
