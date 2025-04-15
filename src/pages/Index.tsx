@@ -207,7 +207,7 @@ const Index = () => {
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto animate-fade-down opacity-0" style={{ animationDelay: '0.8s' }}>
             Generate personalized travel itineraries based on your preferences and budget. Experience Sri Lanka like never before.
           </p>
-          {/* cheacpchaser.live */}
+          {/* cheacpchaser.live connected */}
           <div className="space-x-4 animate-fade-up opacity-0" style={{ animationDelay: '1s' }}>
             <Button size="lg" className="bg-white text-gray-900 hover:bg-gray-100 hover:scale-105 transition-all duration-300"
             onClick={() => window.location.href = "https://cheapchaser.live"}>
